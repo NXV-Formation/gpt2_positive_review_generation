@@ -4,6 +4,30 @@
 
 ![gpt2_positive_reviews](https://raw.githubusercontent.com/NXV-Formation/gpt2_positive_review_generation/main/images/gpt2_positive_reviews.png)
 
+This project explores how Reinforcement Learning (RL) can be used to steer a language model towards generating positive movie reviews.
+
+Using GPT-2 as a text generation model and BERT as a sentiment-based reward model, this notebook demonstrates how Proximal Policy Optimization (PPO) can optimize text generation according to a reward signal.
+
+## Concepts covered
+
+- Text generation with GPT-2
+- Sentiment classification with BERT
+- Reward modeling
+- Reinforcement Learning and PPO
+- Policy optimization and KL divergence
+- Reward hacking and its limitations
+
+## Technologies used
+
+- Python
+- PyTorch
+- Hugging Face Transformers
+- Hugging Face TRL
+
+## Learning objectives
+
+Understand how reinforcement learning can be applied to Large Language Models (LLMs), and explore the challenges of optimizing generative models using automated reward signals.
+
 ## Licensing
 
 This notebook was developed for [NXV](https://nxv.fr).

@@ -1,4 +1,4 @@
-# Reinforcement learning for GPT2 positive sentiment generation
+# Reinforcement Learning for Positive-Sentiment Review Generation with GPT2
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NXV-Formation/gpt2_positive_review_generation/blob/main/GPT2_with_BERT_Reward_Model.ipynb)
 
@@ -6,12 +6,12 @@
 
 This project explores how Reinforcement Learning (RL) can be used to steer a language model towards generating positive movie reviews.
 
-Using GPT-2 as a text generation model and BERT as a sentiment-based reward model, this notebook demonstrates how Proximal Policy Optimization (PPO) can optimize text generation according to a reward signal.
+Using GPT2 as a text generation model and a BERT variant as a sentiment-based reward model, this notebook demonstrates how Proximal Policy Optimization (PPO) can optimize text generation according to a reward signal.
 
 ## Concepts covered
 
-- Text generation with GPT-2
-- Sentiment classification with BERT
+- Text generation with GPT2
+- Sentiment classification with DistillBERT
 - Reward modeling
 - Reinforcement Learning and PPO
 - Policy optimization and KL divergence
